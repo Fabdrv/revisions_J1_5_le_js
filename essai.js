@@ -8,11 +8,11 @@ document.getElementById('btChargerNoms').onclick = saisirNom;
 
 function saisirNom() {
 	Nom = prompt('Saisissez votre Nom : ');
-	Prenom = prompt('Saisissez votre prénom : ');
+	Prenom = prompt('Saisissez votre Prénom : ');
 	actualiserListe();
 }
 
 function actualiserListe() {
 	document.getElementById('message1').innerHTML =
-		'Votre Nom est ' + Nom + ' Votre prénom est ' + Prenom;
+		'Votre nom est : ' + Nom + ' Votre prénom est : ' + Prenom;
 }
